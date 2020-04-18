@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JetpackNavigationGraph</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+
+    <string name="login_fragment_title">fragment_login</string>
+    <string name="fragment_add_to_cart_title">Fruits</string>
+    <string name="fragment_review_order_title">Review Order</string>
+    <string name="fragment_setting_title">Setting</string>
+    <string name="place_order_pay_rs"><![CDATA[Place Order & Pay Rs. ]]></string>
+    <string name="add_address">Add Address</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="rs_50_kg">Rs. 50/kg</string>
+
+
+</resources>

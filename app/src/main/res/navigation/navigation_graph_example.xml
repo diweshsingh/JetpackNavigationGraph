@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_planned_test_navigation.xml"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="info.spreadcode.jetpacknavigationgraph.fragments.LoginFragment"
+        android:label="@string/login_fragment_title"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_addToCartFragment"
+            app:destination="@id/addToCartFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToCartFragment"
+        android:name="info.spreadcode.jetpacknavigationgraph.fragments.AddToCartFragment"
+        android:label="@string/fragment_add_to_cart_title"
+        tools:layout="@layout/fragment_add_to_cart">
+        <action
+            android:id="@+id/action_addToCartFragment_to_reviewOrderFragment"
+            app:destination="@id/reviewOrderFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_addToCartFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/reviewOrderFragment"
+        android:name="info.spreadcode.jetpacknavigationgraph.fragments.ReviewOrderFragment"
+        android:label="@string/fragment_review_order_title"
+        tools:layout="@layout/fragment_review_order" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="info.spreadcode.jetpacknavigationgraph.fragments.SettingFragment"
+        android:label="@string/fragment_setting_title"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

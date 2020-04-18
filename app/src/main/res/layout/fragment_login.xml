@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_fragment_bg_color"
+    android:orientation="vertical"
+    android:padding="@dimen/size_40dp"
+    tools:context=".fragments.LoginFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/spread_code_logo" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/fragment_login_username_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10dp"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:padding="@dimen/size_10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="@dimen/text_size_18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/fragment_login_password_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_15dp"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:padding="@dimen/size_10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="@dimen/text_size_18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fragment_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:background="@drawable/shape_bg"
+        android:text="@string/login"
+        android:textColor="@color/login_fragment_bg_color"
+        android:textSize="@dimen/text_size_18sp" />
+
+
+</LinearLayout>

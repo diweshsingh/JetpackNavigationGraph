@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E50B4</color>
+    <color name="colorPrimaryDark">#2F3E9E</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="login_fragment_bg_color">#E63E50B4</color>
+    <color name="all_fragment_bg_color">#E5E5E5</color>
+    <color name="order_button_color">#E63EB4A2</color>
+    <color name="price_textview_color">#CC000000</color>
+</resources>
